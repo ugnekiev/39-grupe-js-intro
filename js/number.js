@@ -146,7 +146,6 @@ console.log(5575 / Infinity);
 console.log(-5575 / Infinity);
 console.log(-5575 / -Infinity);
 
-
 console.log("Nesamones: NaN");
 console.log(0 / 0);
 console.log(-0 / 0);
