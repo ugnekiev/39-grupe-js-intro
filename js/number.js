@@ -152,4 +152,125 @@ console.log(-0 / 0);
 console.log(Infinity / Infinity);
 console.log(-Infinity / Infinity);
 
+console.log("-------------------------");
+
+let silence = 0
+console.log(silence)
+
+silence = silence + 5
+console.log(silence)
+
+silence = silence + 5
+console.log(silence)
+
+silence = silence + 5
+console.log(silence)
+
+silence = silence + 5
+console.log(silence)
+
+// operacijos sablonas x = x + n
+
+console.log("SUPAPRASTINTAS UZRASYMAS -------------");
+
+silence += + 5
+console.log(silence)
+
+silence += 5
+console.log(silence)
+
+silence += 5
+console.log(silence)
+
+silence += 5
+console.log(silence)
+
+console.log("-------------");
+
+let phone = 13
+console.log(phone)
+
+phone -= 1
+console.log(phone)
+
+phone -= 5
+console.log(phone)
+
+phone /= 5
+console.log(phone)
+
+console.log("-------------");
+// KAI REIKIA GALUTINIO REZULTATO 
+let window = 1
+console.log(window);
+
+window += 2;
+window *= 3
+window -= 1
+console.log(window);
+
+console.log("-------------");
+
+let i = 1;
+console.log(i);
+i += 1;
+console.log(i);
+i ++;
+console.log(i);
+i ++;
+console.log(i);
+
+++ i;
+console.log(i);
+
+console.log("-------------");
+
+let j = 1;
+console.log(j);
+j -= 1;
+console.log(j);
+j --;
+console.log(j);
+j --;
+console.log(j);
+
+-- j;
+console.log(j);
+
+
+console.clear()
+
+console.log("-------------");
+
+let m = 1
+console.log(m)
+console.log(m++)
+console.log(m++)
+console.log(m++)
+console.log(m++)
+console.log(m++)
+
+
+console.log("-------------");
+
+let n = 100
+console.log(n)
+console.log(++n)
+console.log(++n)
+console.log(++n)
+console.log(++n)
+console.log(++n)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
