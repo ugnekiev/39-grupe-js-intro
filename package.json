@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
+    "array": "nodemon ./js/array.js",
+    "boolean": "nodemon ./js/boolean.js",
     "number": "nodemon ./js/number.js",
     "strings": "nodemon ./js/strings.js",
     "kintamieji": "nodemon ./nd/kintamieji.js",
