@@ -19,3 +19,10 @@ nuostabu`;
 console.log(sukis1)
 
 
+const arr = [8, 7, 6 ,5 ];
+let skaicius = " ";
+
+for (let i = 0;  i < arr.length; i++) {
+    const skaicius = arr[i];
+    console.log (skaicius);
+}
