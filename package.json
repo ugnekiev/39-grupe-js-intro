@@ -10,6 +10,7 @@
     "boolean": "nodemon ./js/boolean.js",
     "number": "nodemon ./js/number.js",
     "strings": "nodemon ./js/strings.js",
+    "ndfor": "nodemon ./nd/ndfor.js",
     "kintamieji": "nodemon ./nd/kintamieji.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

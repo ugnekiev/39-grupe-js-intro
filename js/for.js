@@ -75,6 +75,23 @@ const people = ['Petras', 'Maryte', 'Jonas', 'Ona'];
 
 for (let i = 0; i < people.length; i++) {
     const personName = people[i];
-    console.log(personName);
-    
+    const labas = 'labas, as ' + personName + '!';  
+    //console.log(personName);
+    console.log(labas);
+}
+
+const paraidziui = 'Paraidziui';
+for (i=0;i<paraidziui.length; i++) {
+    const simbolis = paraidziui [i];
+    console.log(simbolis);
+
+}
+
+const labas = 'labas rytas Lietuva!';
+let labasNaujas = '';
+for (i=0; i < labas.length; i++){
+    const simbolis1 = labas[i];
+    labasNaujas += simbolis1;
+    console.log(simbolis1, labasNaujas);
+
 }
