@@ -8,16 +8,22 @@ function numbSize(number) {
     const numberAsString = "" + number;
     let numberSize = numberAsString.length;
 
-    //if (number < 0) {
-    //    numberSize --;
-    //}
-    if (numberAsString.includes('-')) {
+    if (number < 0) {
+        numberSize --;
+    }
+    /*if (numberAsString.includes('-')) {
         numberSize--;
     }
-    
+
     if (numberAsString.includes('.')) {
         numberSize--;
     }
+    */
+   if (number % 1 != 0) {
+    numberSize --;
+    
+   }
+
     return numberSize;
 }
 
