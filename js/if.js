@@ -37,7 +37,7 @@ if (a !== b) {
 
 const eyeColor = 'juoda';
 
-if(eyeColor === 'zalia') {
+if (eyeColor === 'zalia') {
     console.log('Zaliaakis');
 } else if (eyeColor === 'melyna') {
     console.log('Melynakis');

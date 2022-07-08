@@ -13,6 +13,8 @@
     "boolean": "nodemon ./js/boolean.js",
     "number": "nodemon ./js/number.js",
     "strings": "nodemon ./js/strings.js",
+    "daugyba": "nodemon ./nd/daugyba.js",
+    "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
     "ndfor": "nodemon ./nd/ndfor.js",
     "kintamieji": "nodemon ./nd/kintamieji.js",
     "test": "echo \"Error: no test specified\" && exit 1"
