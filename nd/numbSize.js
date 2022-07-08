@@ -5,17 +5,15 @@ function numbSize(number) {
         return 'Pateikta netinkamo tipo reiksme'
     }
 
-    const allowedSymbols = "123456789"
+   
     const numberAsString = "" + number;
-    let size = 0;
+    let numberSize = numberAsString.length;
 
     for (let i = 0; i < numberAsString.length; i++) {
         const symbol = numberAsString[i];
-        if (allowedSymbols.indexOf(symbol) >= 0) {
-            size ++;
-        }
+        
     }
-    return size;
+    return numberSize;
 }
 
 console.log(numbSize(true), '->',  'ERORR');
@@ -29,10 +27,6 @@ console.log(numbSize(5), '->', 1);
 console.log(numbSize(781), '->', 3);
 console.log(numbSize(37060123456), '->', 11);
 
-console.log(numbSize(-5), '->', 1);
-console.log(numbSize(-781), '->', 3);
-console.log(numbSize(-37060123456), '->', 11);
 
-console.log(numbSize(3.14), '->', 3);
-console.log(numbSize(-3.14), '->', 3);
+console.log(numbSize(5555555555555555555555555555555555555555555555555555555555555555555), '->', 67);
 
