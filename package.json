@@ -13,6 +13,7 @@
     "boolean": "nodemon ./js/boolean.js",
     "number": "nodemon ./js/number.js",
     "strings": "nodemon ./js/strings.js",
+    "numbSize": "nodemon ./nd/numbSize.js",
     "daugyba": "nodemon ./nd/daugyba.js",
     "tusciaFunkcija": "nodemon ./nd/tusciaFunkcija.js",
     "ndfor": "nodemon ./nd/ndfor.js",
