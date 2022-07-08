@@ -11,7 +11,7 @@ function numbSize(number) {
 
     for (let i = 0; i < numberAsString.length; i++) {
         const symbol = numberAsString[i];
-        if (allowedSymbols.includes(symbol)) {
+        if (allowedSymbols.indexOf(symbol) >= 0) {
             size ++;
         }
     }
