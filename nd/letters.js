@@ -27,10 +27,15 @@ function letters(text, step) {
 
     let answer = '';
 
-    for (let i = step - 1 ; i < text.length; i += step) {
+    if (step > 0){
+        for (let i = step - 1; i < text.length; i += step) {
         answer += text[i];
     }
-
+    } else {
+        for (let i = text.length + step; i >= 0; i += step) {
+            answer += text[i];  
+        }
+    }
     return answer;
     
 }
@@ -53,3 +58,23 @@ console.log(letters('abcdefghijkl', -1), '->', 'lkjihgfedcba');
 console.log(letters('abcdefghijkl', -2), '->', 'kigeca');
 console.log(letters('abcdefghijkl', -3), '->', 'jgda');
 
+
+
+
+/*
+tekstas = 'abcdefghijkl'
+step = -1
+
+ let i = step - 1 ; i < text.length; i += step 
+
+ let i = -1 - 1 ; i < abcdefghijkl; i += -1 
+
+ let i = -2 ; i < 12; i += -1 
+ let i = -3 ; i < 12; i += -1 
+ let i = -4 ; i < 12; i += -1 
+ let i = -5 ; i < 12; i += -1
+ let i = -Infinity ; i < 12; i += -1  
+*/
+
+
+ 
