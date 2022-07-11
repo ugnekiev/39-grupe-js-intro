@@ -13,6 +13,7 @@
     "boolean": "nodemon ./js/boolean.js",
     "number": "nodemon ./js/number.js",
     "strings": "nodemon ./js/strings.js",
+    "letters": "nodemon ./nd/letters.js",
     "BiggestNumber": "nodemon ./nd/BiggestNumber.js",
     "numbSize": "nodemon ./nd/numbSize.js",
     "daugyba": "nodemon ./nd/daugyba.js",
