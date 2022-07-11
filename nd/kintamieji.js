@@ -18,11 +18,17 @@ yra
 nuostabu`;
 console.log(sukis1)
 
+console.log(`------------------`)
 
 const arr = [8, 7, 6 ,5 ];
 let skaicius = " ";
 
 for (let i = 0;  i < arr.length; i++) {
-    const skaicius = arr[i];
-    console.log (skaicius);
+    console.log (arr[i]);
+}
+
+console.log(`------------------`)
+
+for (let i = arr.length -1;  i >= 0; i--) {
+    console.log (arr[i]);
 }
