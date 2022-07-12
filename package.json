@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
+    "arrow": "nodemon ./js/arrow.js",
     "loops": "nodemon ./js/loops.js",
     "function": "nodemon ./js/function.js",
     "switch": "nodemon ./js/switch.js",

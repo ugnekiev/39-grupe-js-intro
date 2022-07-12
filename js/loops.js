@@ -42,19 +42,21 @@ function forEachCallBack(number, i, arr) {
 }
 numbers.forEach(forEachCallBack);
 
+console.log('########### FOREACH + function + Arrow');
+const forEachCallBackArrow = (number, i) => console.log(`${i}) ${number}`);
+
+numbers.forEach(forEachCallBackArrow);
 
 //grazina nauja masyva su modifikuotais duomenimis
 console.log('########### MAP');
 console.log('--------numbers');
-const doubleNumbers = numbers.map(function (number){
-    return number * 2;
-});
+const doubleNumbers = numbers.map(n => n * 2);
+
+//  s yra 'string' sutrumpinimass
 console.log(doubleNumbers);
 console.log('--------strings');
 const names = ['Petras', 'Maryte', 'Jonas', 'Ona'];
-const firstNameLetters = names.map(function (name) {
-    return name[0];
-})
+const firstNameLetters = names.map(s => s[0]);
 console.log(firstNameLetters);
 
 //kitas budas su FOR
@@ -79,9 +81,15 @@ const evenNumbers = numbers.filter(function (number){
     return number % 2 === 0;
 });
 
+const evenNumbersArrow = numbers.filter(n => n % 2 === 0);
+;
+
+
 console.log(numbers);
 console.log(oddNumbers);
 console.log(evenNumbers);
+console.log(evenNumbersArrow);
+
 
 //rodykline funkcija
 () => {
