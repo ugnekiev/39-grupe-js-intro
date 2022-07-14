@@ -142,3 +142,16 @@ console.log('---------------');
 for (const key in gyvunas) {
     console.log(`${key}: ${gyvunas[key]}`);
 }
+
+const user = {
+    name: 'Petras',
+    amzius: 99,
+    isMarried: true,
+    password: 'nesakysiu',
+    extra: 'maciau uz kampo',
+}
+console.log(user);
+
+delete user.password;
+delete user.extra;
+console.log(user);
